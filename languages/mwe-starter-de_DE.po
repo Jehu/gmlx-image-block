@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MWE Blocks starter plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-24 15:12+0000\n"
+"PO-Revision-Date: 2022-03-24 15:55+0000\n"
+"Last-Translator: \n"
+"Language-Team: Deutsch\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-5.9.2\n"
+"X-Domain: mwe-starter"
+
+msgid "Caption"
+msgstr "Bildunterschrift"
+
+msgid "Caption alignment"
+msgstr "Bildunterschrift Ausrichtung"
+
+msgid "Caption Font"
+msgstr "Bildunterschrift Schriftart"
+
+msgid "Caption Subtitle"
+msgstr "Bildunterschrift Untertitel"
+
+msgid "Caption Type"
+msgstr "Bildunterschrift Typ"
+
+#. Description of the plugin
+msgid "Custom Blocks based on Meta Box"
+msgstr "Benutzerdefinierte Blocks basierend auf Meta Box"
+
+msgid "Entry animation"
+msgstr "Eintrittsanimation"
+
+msgid "glamalux Image"
+msgstr "glamalux Bild"
+
+msgid "Hover effect"
+msgstr "Mouseover Effekt"
+
+#. URI of the plugin
+msgid "https://www.michely-web-engineering.de"
+msgstr "https://www.michely-web-engineering.de"
+
+msgid "Image"
+msgstr "Bild"
+
+msgid "Image Size"
+msgstr "Bildgröße"
+
+msgid "Internal Link"
+msgstr "Interner Link"
+
+msgid "Left"
+msgstr "links"
+
+msgid "Lightbox"
+msgstr "Leuchtkasten"
+
+#. Author of the plugin
+msgid "Marco Michely"
+msgstr "Marco Michely"
+
+#. Name of the plugin
+msgid "MWE Blocks starter plugin"
+msgstr "MWE Blocks starter plugin"
+
+msgid "No"
+msgstr "Nein"
+
+msgid "Right"
+msgstr "rechts"
+
+msgid "Yes"
+msgstr "Ja"

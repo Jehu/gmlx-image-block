@@ -1,0 +1,153 @@
+.glightbox-button-hidden {
+  display: none;
+}
+
+.glamalux-image {
+  display: inline-block;
+}
+
+.glamalux-image.alignright {
+  margin-left: 0;
+}
+
+.glamalux-image.alignright figcaption {
+  text-align: right;
+}
+
+.glamalux-image--hovereffect img {
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.glamalux-image--hovereffect:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.glamalux-image--caption-inside {
+  position: relative;
+}
+
+.glamalux-image--caption-inside .glamalux-image__caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  text-transform: uppercase;
+  color: var(--global-palette9);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#585858), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(0deg, #585858 0%, rgba(0, 0, 0, 0) 100%);
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+}
+
+.glamalux-image--caption-inside .glamalux-image__caption--sans {
+  font-size: 24px;
+}
+
+.glamalux-image--caption-inside .glamalux-image__caption--script {
+  font-size: 31px;
+}
+
+.glamalux-image__imgwrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.glamalux-image--linked {
+  position: relative;
+}
+
+.glamalux-image--linked .glamalux-image__link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.glamalux-image__caption {
+  color: var(--global-palette5);
+  width: 100%;
+  z-index: 1;
+}
+
+.glamalux-image__caption--sans {
+  font-family: Lato, Sans-Serif;
+  font-size: 24px;
+}
+
+.glamalux-image__caption--script {
+  font-family: 'Julietta Messie';
+  font-size: 31px;
+  padding-top: 15px;
+}
+
+.glamalux-image__caption--right {
+  text-align: right;
+}
+
+.glamalux-image__caption .glamalux-image__caption-sub {
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-transform: none;
+}
+
+.glamalux-image__caption .glamalux-image__caption-sub:before {
+  content: "";
+  background-color: var(--global-palette9);
+  width: 10%;
+  height: 10px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.glamalux-image--lightboxed .glamalux-image__imglink svg.glamalux-image__zoomicon {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: calc(50% - 32px);
+  left: calc(50% - 32px);
+  z-index: 10;
+}
+
+.glamalux-image--lightboxed .glamalux-image__imglink:hover svg.glamalux-image__zoomicon {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition-property: visibility,opacity;
+  transition-property: visibility,opacity;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 1.2s;
+          transition-duration: 1.2s;
+}
+
+.glamalux-image--lightboxed .glamalux-image__imglink:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.glamalux-image--lightboxed:hover .glamalux-image__imglink:after {
+  opacity: 1;
+}
+/*# sourceMappingURL=style.css.map */
